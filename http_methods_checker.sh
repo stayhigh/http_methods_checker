@@ -2,7 +2,7 @@ http_server_host=$1
 http_server_port=$2
 
 function usage(){
-    echo "$0 <http_server_host> <http_server_port>"
+    echo "./$0 <http_server_host> <http_server_port>"
     echo "example: $0 localhost 8000"
 }
 
